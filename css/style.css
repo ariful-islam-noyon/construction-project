@@ -563,7 +563,6 @@ input[type="search"]:focus-visible {
 }
 .portfolio-view-more {
     text-align: center;
-    margin-top: 80px;
 }
 .portfolio-view-more a{
     padding: 18px 40px;
@@ -571,4 +570,155 @@ input[type="search"]:focus-visible {
     color: #333;
     font-size: 15px;
     font-weight: 500;
+}
+
+/* Counter  */
+counter-area{
+    background-size: cover;
+}
+.counter-item span {
+    display: block;
+    font-size: 28px;
+    font-weight: 600;
+    font-family: 'Poppins';
+    color: #333;
+    margin-top: 28px;
+}
+.counter-item p {
+    font-size: 15px;
+    color: #333;
+    text-transform: uppercase;
+}
+
+/* Blog  */
+.blog-wrap {
+    border: 1px solid #e0e0e0;
+    padding: 30px;
+    overflow: hidden;
+    transition: .3s;
+}
+.blog-inner{
+    overflow: hidden;
+}
+.blog-wrap:hover{ border: 1px solid transparent; background-color: #fff;}
+span.blog-tag a {
+    color: #333;
+    font-size: 14px;
+    font-family: "Work sans";
+    font-weight: 400;
+    background: #fbba42;
+    border-radius: 30px;
+    padding: 5px 14px;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+h4.blog-title {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+p.blog-content {
+    font-size: 17px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+p.blog-content {
+    font-size: 17px;
+    line-height: 30px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e0e0e0;
+}
+.blog-meta > span.f-left {
+    font-size: 14px;
+    font-family: "Work sans";
+    color: #646464;
+}
+.blog-meta span a > span i {
+    font-size: 11px;
+    color: #333;
+}
+
+span.more-btn {
+    font-size: 13px;
+    font-weight: 700;
+    font-family: "Poppins";
+    text-transform: uppercase;
+    color: #3b3f42;
+    
+}
+.blog-more-btn{
+    transform: translateX(40px);
+    transition: .3s;
+}
+.blog-wrap:hover .blog-more-btn{
+    transform: translateX(0);
+}
+.custom-row{
+    margin: 0 -15px;
+}
+.latest-blog-area .blog-active .slick-slide, .testimonial-active .slick-slide {
+    margin: 0px 15px;
+}
+ul.slick-dots {
+    position: absolute;
+    bottom: -70px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+ul.slick-dots li {
+    display: inline-block;
+    padding: 0 5px;
+}
+ul.slick-dots li button {
+    text-indent: -1000000px;
+}
+ul.slick-dots li button {
+    text-indent: -1000000px;
+    border: 2px solid #b0b0b4;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+ul.slick-dots li.slick-active button{
+    background: #646464;
+}
+/* Testimonial */
+h3.testimonial-section-title {
+    font-size: 28px;
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+p.testimonial-section-sub-title {
+    font-size: 17px;
+    line-height: 30px;
+}
+.testimonial-wrapper {
+    border: 1px solid #e0e0e0;
+    padding: 40px 50px;
+    margin-top: 50px;
+}
+.clients-img {
+    margin-top: -90px;
+    margin-bottom: 25px;
+    display: inline-block;
+}
+.clients-review p {
+    font-size: 17px;
+    line-height: 30px;
+    margin-bottom: 14px;
+}
+h4.clients-name {
+    font-size: 18px;
+    line-height: 30px;
+    color: #333;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+span.clients-position {
+    font-size: 14px;
+    color: #777;
+    line-height: 20px;
 }
