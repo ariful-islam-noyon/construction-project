@@ -133,11 +133,11 @@ li {
 	list-style: none
 }
 p {
-	font-size: 14px;
-	font-weight: normal;
-	line-height: 24px;
-	color: #777777;
-	margin-bottom: 15px;
+    font-size: 17px;
+    font-weight: normal;
+    line-height: 30px;
+    color: #777777;
+    margin-bottom: 15px;
 }
 hr {
 	border-bottom: 1px solid #eceff8;
@@ -722,3 +722,73 @@ span.clients-position {
     color: #777;
     line-height: 20px;
 }
+/* Footer */
+
+.footer-brands-active{
+    border-bottom: 1px solid #fbba42;
+    padding-bottom: 15px;
+    padding-top: 25px;
+}
+.footer-widget h3 {
+    font-size: 28px;
+    color: #3b3f42;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+ul.contact-info li {
+    font-size: 17px;
+    line-height: 36px;
+}
+ul.widget-link li {
+    width: 50%;
+    float: left;
+}
+ul.widget-link li a {
+    font-size: 17px;
+    line-height: 36px;
+    color: #777777;
+}
+ul.widget-link li::before{
+    content: "\f0da";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    margin-right: 15px;
+    color: #777;
+}
+input:focus-visible {
+    outline: none;
+}
+.footer-widget input {
+    height: 40px;
+    padding: 0 15px;
+    width: 100%;
+    border-radius: 7px;
+    font-size: 14px;
+    border: 1px solid #e0e0e0;
+    background: transparent;
+}
+.footer-widget{
+    position: relative;
+}
+.footer-widget button {
+    height: 40px;
+    padding: 0 15px;
+    position: absolute;
+    right: 0;
+    border-radius: 0 5px 5px 0;
+    border: none;
+    background-color: #fbba42;
+    color: #222;
+}
+.footer-icon > a {
+    color: #3b3f42;
+    font-size: 14px;
+    margin-right: 40px;
+    transition: .3s;
+  }
+  .footer-icon > a:hover{
+      color: #fbba42;
+  }
+  .copyright-text p{
+      margin: 0;
+  }

@@ -116,6 +116,44 @@ $('.testimonial-active').slick({
     }
   ]
 });
+
+// footer brands active 
+$('.footer-brands-active').slick({
+  dots: false,
+  infinite: true,
+  arrow: false,
+  prevArrow:false,
+  nextArrow: false,
+  speed: 300,
+  slidesToShow: 5,
+  slidesToScroll: 1,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        dots: false,
+        infinite: false,
+        arrow: false,
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+  ]
+});
       // Portfolio masonary grid 
       var $grid = $('.grid').isotope({
         itemSelector: '.grid-item',
