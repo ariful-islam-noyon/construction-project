@@ -1,5 +1,19 @@
 (function ($) {
     "use strict";
+
+    // Responsive Menu
+    jQuery('#mobile-menu').meanmenu({
+      meanMenuContainer: '.mobile-menu',
+      meanScreenWidth: "991"
+    });
+
+  // Side contact Bar
+  $('.side-bar-show').click(function(){
+    $('.side-info').addClass('side-show');
+  })
+  $('.side-close').click(function(){
+    $('.side-info').removeClass('side-show');
+  })
 // Slider Active
     $('.slider-active').slick({
         dots: false,
@@ -64,9 +78,9 @@ $('.blog-active').slick({
       }
     },
     {
-      breakpoint: 600,
+      breakpoint: 991,
       settings: {
-        slidesToShow: 1,
+        slidesToShow: 2,
         slidesToScroll: 1
       }
     },
@@ -101,10 +115,11 @@ $('.testimonial-active').slick({
       }
     },
     {
-      breakpoint: 600,
+      breakpoint: 991,
       settings: {
         slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        dots: true,
       }
     },
     {
@@ -139,16 +154,16 @@ $('.footer-brands-active').slick({
       }
     },
     {
-      breakpoint: 600,
+      breakpoint: 991,
       settings: {
-        slidesToShow: 1,
+        slidesToShow: 4,
         slidesToScroll: 1
       }
     },
     {
       breakpoint: 480,
       settings: {
-        slidesToShow: 1,
+        slidesToShow: 2,
         slidesToScroll: 1
       }
     }

@@ -1,0 +1,171 @@
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .single-slider.slider-height {
+        min-height: 700px;
+    }
+    .header-top-area {
+        padding-left: 20;
+        padding-right: 20;
+    }
+    .header-bottom-area {
+        padding-left: 20;
+        padding-right: 20;
+    }
+    .main-menu ul li {
+        margin-left: 30px;
+    }
+    .header-button {
+        margin-left: 30px;
+    }
+    .header-button > a {
+        padding: 15px 25px;
+    }
+    }
+    .slide-right-image {
+        padding-top: 20px;
+    }
+    
+    /* LG Device :992px. */
+    @media (min-width: 992px) and (max-width: 1200px) {
+        .header-top-area {
+            padding-left: 0;
+            padding-right: 0;
+        }
+        .header-bottom-area {
+            padding-left: 0;
+            padding-right: 0;
+        }
+        .main-menu ul li {
+            margin-left: 30px;
+        }
+        .header-button {
+            margin-left: 30px;
+        }
+        .header-button > a {
+            padding: 15px 20px;
+        }
+        .wraper {
+            padding: 0 15px;
+        }
+        .slider-content {
+            padding-left: 30px;
+        }
+        .slide-right-image > img {
+            width: 100%;
+        }
+        .single-slider.slider-height {
+            min-height: 600px;
+        }
+        .promotion-content {
+            padding-top: 100px;
+            padding-bottom: 80px;
+            padding-left: 20px;
+        }
+    
+    }
+    
+     
+    /* MD Device :768px. */
+    @media (min-width: 768px) and (max-width: 991px) {
+        .mobile-menu.mean-container {
+            padding: 0;
+        }
+        .header-bottom-area {
+            padding-top: 20px;
+            padding-bottom: 10px;
+        }
+        .wraper {
+            padding: 0 70px;
+        }
+        .single-slider.slider-height {
+            min-height: 550px;
+            padding: 0 75px;
+        }
+        .single-features h2 {
+            font-size: 25px;
+            margin-bottom: 12px;
+        }
+        .single-features p {
+            font-size: 16px;
+            line-height: 28px;
+        }
+        .promotion-content {
+            padding-left: 25px;
+            padding-bottom: 50px;
+            padding-top: 60px;
+        }
+        ul.widget-link li {
+            width: 100%;
+            float: none;
+        }
+        ul.widget-link li a {
+            line-height: 28px;
+        }
+        .footer-widget h3 {
+            font-size: 25px;
+            margin-bottom: 25px;
+        }
+        .single-slider.slider-height.d-flex.align-items-center.slick-slide.slick-current {
+            background-size: cover;
+        }
+    }
+    
+     
+    /* Extra small Device. */
+    @media (max-width: 767px) {
+        .header-top-area {
+            padding: 0;
+        }
+        .header-bottom-area {
+            padding-left: 0;
+            padding-right: 0;
+            padding-top: 10px;
+        }
+        .mean-container a.meanmenu-reveal {
+            right: -3px !important;
+        }
+        .wraper {
+            padding: 0 10px;
+        }
+        .single-slider.slider-height {
+            min-height: 500px;
+        }
+        .slider-content h1 {
+            font-size: 35px;
+            line-height: 45px;
+        }
+        .slider-content p {
+            padding-right: 0;
+        }
+        .single-slider.slider-height.d-flex.align-items-center.slick-slide.slick-current {
+            background-size: cover;
+        }
+        .feature-title h2 {
+            font-size: 40px;
+        }
+        .promotion-content {
+            padding-left: 0;
+            padding-top: 70px;
+            padding-bottom: 80px;
+        }
+        .portofilo-menu > button {
+            padding: 8px 8px;
+            font-size: 15px;
+            margin-top: 5px;
+        }
+        .cap-img img {
+            width: 100%;
+        }
+        .single-brand img {
+            display: inline-block;
+        }
+        .single-brand {
+            text-align: center;
+        }
+    }
+     
+    /* SM Small Device :550px. */
+    @media only screen and (min-width: 576px) and (max-width: 767px) {
+        
+     
+    }
