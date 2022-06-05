@@ -8,10 +8,10 @@
     });
 
   // Side contact Bar
-  $('.side-bar-show').click(function(){
+  $('.side-bar-show').on('click',function(){
     $('.side-info').addClass('side-show');
   })
-  $('.side-close').click(function(){
+  $('.side-close').on('click',function(){
     $('.side-info').removeClass('side-show');
   })
 // Slider Active
@@ -130,6 +130,24 @@ $('.testimonial-active').slick({
       }
     }
   ]
+});
+$('.testimonial-activation').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows: false,
+  fade: true,
+  asNavFor: '.testimonial-nav'
+});
+$('.testimonial-nav').slick({
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  asNavFor: '.testimonial-activation',
+  dots: false,
+  prevArrow:'<i class="fa-solid fa-chevron-left"></i>',
+  nextArrow:'<i class="fa-solid fa-chevron-right"></i>',
+  centerMode: true,
+  centerPadding:0,
+  focusOnSelect: true
 });
 
 // footer brands active 

@@ -21,11 +21,11 @@
     <meta name="theme-color" content="#fafafa">
 </head>
 
-<body>
+<body id="home-2">
     <!-- Header start -->
-    <header>
-        <div class="header-top-area pl-60 pr-60">
-            <div class="container-fluid">
+    <header class="transparent-header">
+        <div class="header-top-area">
+            <div class="container">
                 <div class="row">
                     <div class="col-xl-6 col-lg-6 col-md-6 col-6">
                         <div class="header-left d-flex align-items-center">
@@ -42,10 +42,10 @@
                                 </ul>
                             </div>
                             <div class="social-icon pl-30 ml-30 d-none d-md-block">
-                                <a href=""><i class="fa-brands fa-facebook-f"></i></a>
-                                <a href=""><i class="fa-brands fa-twitter"></i></a>
-                                <a href=""><i class="fa-brands fa-google-plus-g"></i></a>
-                                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
                             </div>
                         </div>
                     </div>
@@ -87,12 +87,12 @@
                 </div>
             </div>
         </div>
-        <div class="header-bottom-area pl-60 pr-60">
-            <div class="container-fluid">
+        <div class="header-bottom-area">
+            <div class="container">
                 <div class="row align-items-center">
                     <div class="col-xl-3 col-lg-3">
                         <div class="logo">
-                            <a href="index.html"><img src="./img/logo/logo.png" alt="logo"></a>
+                            <a href="index.html"><img src="./img/logo/ht-logo.png" alt="logo"></a>
                         </div>
                     </div>
                     <div class="col-xl-9 col-lg-9">
@@ -105,8 +105,10 @@
                                     <li><a href="index.html">Home</a>
                                         <ul class="sub-menu">
                                             <li><a href="index.html">Home Page - 1</a></li>
-                                            <li><a href="index-2.html">Home Page - 2</a></li>
-                                            <li><a href="index-3.html">Home Page - 3</a></li>
+                                            <li><a href="index-2.html">
+                                                Home Page - 2</a></li>
+                                                <li><a href="index-3.html">
+                                                    Home Page - 3</a></li>
                                             <li><a href="#">Home Page - 4</a>
                                                 <ul class="sub-menu">
                                                     <li><a href="#">Home Page - 1</a></li>
@@ -142,15 +144,14 @@
     </header>
     <!-- Header End -->
     <section>
-        <div class="wraper pl-60 pr-60">
             <!-- Slider Start -->
             <div class="slider-area">
                 <div class="slider-active">
-                    <div class="single-slider slider-height d-flex align-items-center" style="background-image: url(./img/slider/slide1.jpg);">
+                    <div class="single-slider height-100 d-flex align-items-center" style="background-image: url(./img/slider/slide1.jpg);">
                         <div class="container">
                             <div class="row">
                                 <div class="col-xl-6 col-lg-7 d-flex align-items-center">
-                                    <div class="slider-content">
+                                    <div class="slider-content pt-110">
                                         <span>We are startup business</span>
                                         <h1>BUILDING WORLD TOGETHER</h1>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit Nullam convallis.</p>
@@ -158,18 +159,18 @@
                                     </div>
                                 </div>
                                 <div class="col-xl-6 col-lg-5 d-none d-lg-block">
-                                    <div class="slide-right-image">
+                                    <div class="slide-right-image slider-full f-right">
                                         <img src="./img/slider/slideImage.png" alt="">
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="single-slider slider-height d-flex align-items-center" style="background-image: url(./img/slider/slide1.jpg);">
+                    <div class="single-slider height-100 d-flex align-items-center" style="background-image: url(./img/slider/slide1.jpg);">
                         <div class="container">
                             <div class="row">
                                 <div class="col-xl-6 col-lg-7 d-flex align-items-center">
-                                    <div class="slider-content">
+                                    <div class="slider-content pt-110">
                                         <span>We are startup business</span>
                                         <h1>BUILDING WORLD TOGETHER</h1>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit Nullam convallis.</p>
@@ -177,7 +178,7 @@
                                     </div>
                                 </div>
                                 <div class="col-xl-6 col-lg-5 d-none d-lg-block">
-                                    <div class="slide-right-image">
+                                    <div class="slide-right-image slider-full f-right">
                                         <img src="./img/slider/slideImage.png" alt="">
                                     </div>
                                 </div>
@@ -224,13 +225,16 @@
             </div>
             <!-- feature End -->
             <!-- promotion Start -->
-            <div class="promotion-area gray-bg">
-                <div class="promotion-image d-none d-md-block" style="background: url(./img/img/01_home.jpg)">
-                </div>
+            <div class="cta-area pt-100 pb-100">  
                 <div class="container">
                     <div class="row">
-                        <div class="col-xl-6 offset-xl-6 col-lg-6 offset-lg-6 col-md-6 offset-md-6">
-                            <div class="promotion-content pb-100 pt-110">
+                        <div class=" col-xl-6">
+                            <div class="cta-img">
+                                <img src="./img/img/01_home_v02.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-6">
+                            <div class="cta-content">
                                 <h2>Don’t Wait For <br> anything. Buy it today!</h2>
                                 <span>Do creative for your fashion website
                                 </span>
@@ -243,8 +247,8 @@
             </div>
             <!-- Promotion End -->
             <!-- Portfolio Start -->
-            <div class="portfolio-area pb-85 pt-100 overflow-hidden">
-                <div class="container">
+            <div class="portfolio-area pb-85 pt-50 overflow-hidden">
+                <div class="container-full">
                     <div class="row">
                         <div class="col-xl-12">
                             <div class="portfolio-section-title">
@@ -265,14 +269,14 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row grid g-4">
+                    <div class="row grid g-0">
                         <div class="col-xl-4 col-lg-4 col-md-6 grid-item cat1 cat5">
                             <div class="portfolio-wraper">
                                 <div class="portfolio-thum">
-                                    <img src="./img/portfolio/port1.jpg" alt="">
+                                    <img src="./img/portfolio/home2/port1.jpg" alt="">
                                 </div>
                                 <div class="portfolio-content">
-                                    <a class="portfolio-popup" href="./img/portfolio/port1.jpg"></a>
+                                    <a class="portfolio-popup" href="./img/portfolio/home2/port1.jpg"></a>
                                     <h4><a href="">Aplumber Repairs Pipes</a></h4>
                                     <p>Buildings, Office</p>
                                 </div>
@@ -281,10 +285,10 @@
                         <div class="col-xl-4 col-lg-4 col-md-6 grid-item cat2 cat4">
                             <div class="portfolio-wraper">
                                 <div class="portfolio-thum">
-                                    <img src="./img/portfolio/port2.jpg" alt="">
+                                    <img src="./img/portfolio/home2/port2.jpg" alt="">
                                 </div>
                                 <div class="portfolio-content">
-                                    <a class="portfolio-popup" href="./img/portfolio/port2.jpg"></a>
+                                    <a class="portfolio-popup" href="./img/portfolio/home2/port2.jpg"></a>
                                     <h4><a href="">Aplumber Repairs Pipes</a></h4>
                                     <p>Buildings, Office</p>
                                 </div>
@@ -293,10 +297,10 @@
                         <div class="col-xl-4 col-lg-4 col-md-6 grid-item cat3 cat6">
                             <div class="portfolio-wraper">
                                 <div class="portfolio-thum">
-                                    <img src="./img/portfolio/port3.jpg" alt="">
+                                    <img src="./img/portfolio/home2/port3.jpg" alt="">
                                 </div>
                                 <div class="portfolio-content">
-                                    <a class="portfolio-popup" href="./img/portfolio/port3.jpg"></a>
+                                    <a class="portfolio-popup" href="./img/portfolio/home2/port3.jpg"></a>
                                     <h4><a href="">Aplumber Repairs Pipes</a></h4>
                                     <p>Buildings, Office</p>
                                 </div>
@@ -305,10 +309,10 @@
                         <div class="col-xl-4 col-lg-4 col-md-6 grid-item cat4 cat1">
                             <div class="portfolio-wraper">
                                 <div class="portfolio-thum">
-                                    <img src="./img/portfolio/port4.jpg" alt="">
+                                    <img src="./img/portfolio/home2/port4.jpg" alt="">
                                 </div>
                                 <div class="portfolio-content">
-                                    <a class="portfolio-popup" href="./img/portfolio/port4.jpg"></a>
+                                    <a class="portfolio-popup" href="./img/portfolio/home2/port4.jpg"></a>
                                     <h4><a href="">Aplumber Repairs Pipes</a></h4>
                                     <p>Buildings, Office</p>
                                 </div>
@@ -317,10 +321,10 @@
                         <div class="col-xl-4 col-lg-4 col-md-6 grid-item cat5 cat2">
                             <div class="portfolio-wraper">
                                 <div class="portfolio-thum">
-                                    <img src="./img/portfolio/port6.jpg" alt="">
+                                    <img src="./img/portfolio/home2/port5.jpg" alt="">
                                 </div>
                                 <div class="portfolio-content">
-                                    <a class="portfolio-popup" href="./img/portfolio/port6.jpg"></a>
+                                    <a class="portfolio-popup" href="./img/portfolio/home2/port5.jpg"></a>
                                     <h4><a href="">Aplumber Repairs Pipes</a></h4>
                                     <p>Buildings, Office</p>
                                 </div>
@@ -329,10 +333,10 @@
                         <div class="col-xl-4 col-lg-4 col-md-6 grid-item cat6 cat3">
                             <div class="portfolio-wraper">
                                 <div class="portfolio-thum">
-                                    <img src="./img/portfolio/port5.jpg" alt="">
+                                    <img src="./img/portfolio/home2/port6.jpg" alt="">
                                 </div>
                                 <div class="portfolio-content">
-                                    <a class="portfolio-popup" href="./img/portfolio/port5.jpg"></a>
+                                    <a class="portfolio-popup" href="./img/portfolio/home2/port6.jpg"></a>
                                     <h4><a href="">Aplumber Repairs Pipes</a></h4>
                                     <p>Buildings, Office</p>
                                 </div>
@@ -349,125 +353,243 @@
                 </div>
             </div>
             <!-- Portfolio End -->
+            <!-- Team Area Start -->
+            <div class="team-area text-center pb-30">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="section-title">
+                                <h2>Meet Our Experts</h2>
+                                <p class="w-50 m-auto">Lorem ipsum dolor sit aLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor </p>
+                                <a href="#" class="team-apply-btn">Apply Now <i class="fa-solid fa-angle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-3 mb-30">
+                            <div class="team-info">
+                                <div class="team-img">
+                                    <img src="./img/team/team1.jpg" alt="">
+                                    <div class="team-social">
+                                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                        <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+                                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                    </div>
+                                </div>
+                                <div class="team-content">
+                                    <h5>Jackson Nash</h5>
+                                    <p>Massagist</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 mb-30">
+                            <div class="team-info">
+                                <div class="team-img">
+                                    <img src="./img/team/team2.jpg" alt="">
+                                    <div class="team-social">
+                                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                        <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+                                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                    </div>
+                                </div>
+                                <div class="team-content">
+                                    <h5>Ollie Schneider</h5>
+                                    <p>Orthopaedic Doctor</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 mb-30">
+                            <div class="team-info">
+                                <div class="team-img">
+                                    <img src="./img/team/team3.jpg" alt="">
+                                    <div class="team-social">
+                                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                        <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+                                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                    </div>
+                                </div>
+                                <div class="team-content">
+                                    <h5>Roger West</h5>
+                                    <p>Skin Expert</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3">
+                            <div class="team-info">
+                                <div class="team-img">
+                                    <img src="./img/team/team4.jpg" alt="">
+                                    <div class="team-social">
+                                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                        <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+                                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                    </div>
+                                </div>
+                                <div class="team-content">
+                                    <h5>Roger West</h5>
+                                    <p>Skin Expert</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <!-- Counter-area Start  -->
-            <div class="counter-area pt-65 pb-20" style="background: url(./img/bg/bg-counter.jpg) no-repeat;">
+            <div class="experiance-area pt-65 pb-20" style="background: url(./img/bg/bg-counter.jpg) no-repeat;">
                 <div class="container">
                     <div class="row">
                         <div class="col-xl-3 col-lg-3 col-md-3 mb-25">
-                            <div class="counter-item text-center">
-                                <img src="./img/counter/heart.png" alt="">
-                                <span class="counter">5120</span>
-                                <p>happy customers</p>
+                            <div class="counter-item d-flex">
+                                <h1 class="counter">10</h1>
+                                <p>YEARS OF <br> EXPERIENCE</p>
                             </div>
                         </div>
                         <div class="col-xl-3 col-lg-3 col-md-3 mb-25">
-                            <div class="counter-item text-center">
-                                <img src="./img/counter/case.png" alt="">
-                                <span class="counter">5120</span>
-                                <p>happy customers</p>
+                            <div class="counter-item d-flex">
+                                <h1 class="counter">120</h1>
+                                <p>Successful <br> entrepreneurs</p>
                             </div>
                         </div>
                         <div class="col-xl-3 col-lg-3 col-md-3 mb-25">
-                            <div class="counter-item text-center">
-                                <img src="./img/counter/user.png" alt="">
-                                <span class="counter">5120</span>
-                                <p>happy customers</p>
+                            <div class="counter-item d-flex">
+                                <h1 class="counter">80</h1>
+                                <p>COMPANIES <br> FOUNDED</p>
                             </div>
                         </div>
                         <div class="col-xl-3 col-lg-3 col-md-3 mb-25">
-                            <div class="counter-item text-center">
-                                <img src="./img/counter/curency.png" alt="">
-                                <span class="counter">5120</span>
-                                <p>happy customers</p>
+                            <div class="counter-item d-flex">
+                                <h1 class="counter">240</h1>
+                                <p>BOOKS, DVDS <br> & PODCASTS</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <!-- Counter-area End  -->
+           <!-- testimonial start -->
+           <div class="testimonial-area gray-bg pt-100 pb-100">
+               <div class="container">
+                   <div class="row">
+                       <div class="col-xl-8 offset-xl-2">
+                           <div class="testimonial-activation">
+                            <div class="testimonial-items text-center">
+                                <div class="testimonial-content ">
+                                    <span><i class="fa-solid fa-quote-right"></i></span>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                </div>
+                                <div class="testimonial-client-info">
+                                    <h4>Tanber Hossen</h4>
+                                    <p>CEO DeerCreative</p>
+                                </div>
+                            </div>
+                            <div class="testimonial-items text-center">
+                                <div class="testimonial-content ">
+                                    <span><i class="fa-solid fa-quote-right"></i></span>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                </div>
+                                <div class="testimonial-client-info">
+                                    <h4>Ariful Islam</h4>
+                                    <p>Full Stack Web-Developer</p>
+                                </div>
+                            </div>
+                            <div class="testimonial-items text-center">
+                                <div class="testimonial-content ">
+                                    <span><i class="fa-solid fa-quote-right"></i></span>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                </div>
+                                <div class="testimonial-client-info">
+                                    <h4>Samili Hanter</h4>
+                                    <p>UI/UX Designer</p>
+                                </div>
+                            </div>
+                            <div class="testimonial-items text-center">
+                                <div class="testimonial-content ">
+                                    <span><i class="fa-solid fa-quote-right"></i></span>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                </div>
+                                <div class="testimonial-client-info">
+                                    <h4>Jon Due</h4>
+                                    <p>Web Designer</p>
+                                </div>
+                            </div>
+                           </div>
+                           <div class="testimonial-nav">
+                               <div class="testimonial-thum">
+                                   <img src="./img/testimonial/test3.png" alt="">
+                               </div>
+                               <div class="testimonial-thum">
+                                <img src="./img/testimonial/test5.png" alt="">
+                            </div>
+                            <div class="testimonial-thum">
+                                <img src="./img/testimonial/test3.png" alt="">
+                            </div>
+                            <div class="testimonial-thum">
+                                <img src="./img/testimonial/test5.png" alt="">
+                            </div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+           <!-- testimonial-end -->
             <!-- Blog Area Start  -->
-            <div class="latest-blog-area gray-bg pt-80 pb-110">
+            <div class="latest-blog-area pt-80 pb-70 home-2">
                 <div class="container">
-                    <div class="custom-row">
-                        <div class="blog-active d-flex">
-                            <div class="col-xl-4">
-                                <div class="blog-wrap">
-                                    <div class="blog-inner">
-                                        <span class="blog-tag">
-                                            <a href="#">News</a>
-                                        </span>
-                                        <h4 class="blog-title"><a href="#">Four ways to cheer yourself up on Blue Monday!</a></h4>
-                                        <p class="blog-content">Lorem ipsum dolor sit amet, conse ctetur adipisicing elit, sed do eius mod tempor incididunt utab.</p>
-                                        <div class="blog-meta">
-                                            <span class="f-left">Feb 22, 2017</span>
-                                            <span class="f-right blog-more-btn">
-                                                <a href="blog-details.html">
-                                                    <span><i class="fas fa-long-arrow-alt-right"></i></span>
-                                                    <span class="more-btn">More</span>
-                                                </a>
-                                            </span>
-                                        </div>
-                                    </div>
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="section-title text-center">
+                                <h2>Latest News</h2>
+                                <p class="w-50 m-auto">Lorem ipsum dolor sit aLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-4 mb-30">
+                            <div class="blog-wraper">
+                                <div class="blog-thumnail">
+                                    <img src="./img/blog/blog1.jpg" alt="">
+                                </div>
+                                <div class="blog-title d-flex">
+                                    <span class="blog-meta"><span class="meta-date d-block">07</span><span class="meta-month">May</span></span>
+                                    <h4 class="blog-title"><a href="blogdetails.html">How to Improve Your Sales Volume</a></h3>
+                                </div>
+                                <div class="blog-content">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                                    <a href="#" class="blog-read-more">Continue Reading</a>
                                 </div>
                             </div>
-                            <div class="col-xl-4">
-                                <div class="blog-wrap">
-                                    <div class="blog-inner">
-                                        <span class="blog-tag">
-                                            <a href="#">News</a>
-                                        </span>
-                                        <h4 class="blog-title"><a href="#">Old cameras can capture images better</a></h4>
-                                        <p class="blog-content">Lorem ipsum dolor sit amet, conse ctetur adipisicing elit, sed do eius mod tempor incididunt utab.</p>
-                                        <div class="blog-meta">
-                                            <span class="f-left">Feb 22, 2017</span>
-                                            <span class="f-right blog-more-btn">
-                                                <a href="blog-details.html">
-                                                    <span><i class="fas fa-long-arrow-alt-right"></i></span>
-                                                    <span class="more-btn">More</span>
-                                                </a>
-                                            </span>
-                                        </div>
-                                    </div>
+                            
+                        </div>
+                        <div class="col-xl-4 mb-30">
+                            <div class="blog-wraper">
+                                <div class="blog-thumnail">
+                                    <img src="./img/blog/blog2.jpg" alt="">
+                                </div>
+                                <div class="blog-title d-flex">
+                                    <span class="blog-meta"><span class="meta-date d-block">07</span><span class="meta-month">May</span></span>
+                                    <h4 class="blog-title"><a href="blogdetails.html">How to Improve Your Sales Volume</a></h3>
+                                </div>
+                                <div class="blog-content">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                                    <a href="#" class="blog-read-more">Continue Reading</a>
                                 </div>
                             </div>
-                            <div class="col-xl-4">
-                                <div class="blog-wrap">
-                                    <div class="blog-inner">
-                                        <span class="blog-tag">
-                                            <a href="#">News</a>
-                                        </span>
-                                        <h4 class="blog-title"><a href="#">New subway line has the most advanced technology.</a></h4>
-                                        <p class="blog-content">Lorem ipsum dolor sit amet, conse ctetur adipisicing elit, sed do eius mod tempor incididunt utab.</p>
-                                        <div class="blog-meta">
-                                            <span class="f-left">Feb 22, 2017</span>
-                                            <span class="f-right blog-more-btn">
-                                                <a href="blog-details.html">
-                                                    <span><i class="fas fa-long-arrow-alt-right"></i></span>
-                                                    <span class="more-btn">More</span>
-                                                </a>
-                                            </span>
-                                        </div>
-                                    </div>
+                        </div>
+                        <div class="col-xl-4 mb-30">
+                            <div class="blog-wraper">
+                                <div class="blog-thumnail">
+                                    <img src="./img/blog/blog3.jpg" alt="">
                                 </div>
-                            </div>
-                            <div class="col-xl-4">
-                                <div class="blog-wrap">
-                                    <div class="blog-inner">
-                                        <span class="blog-tag">
-                                            <a href="#">News</a>
-                                        </span>
-                                        <h4 class="blog-title"><a href="#">Four ways to cheer yourself up on Blue Monday!</a></h4>
-                                        <p class="blog-content">Lorem ipsum dolor sit amet, conse ctetur adipisicing elit, sed do eius mod tempor incididunt utab.</p>
-                                        <div class="blog-meta">
-                                            <span class="f-left">Feb 22, 2017</span>
-                                            <span class="f-right blog-more-btn">
-                                                <a href="blog-details.html">
-                                                    <span><i class="fas fa-long-arrow-alt-right"></i></span>
-                                                    <span class="more-btn">More</span>
-                                                </a>
-                                            </span>
-                                        </div>
-                                    </div>
+                                <div class="blog-title d-flex">
+                                    <span class="blog-meta"><span class="meta-date d-block">07</span><span class="meta-month">May</span></span>
+                                    <h4 class="blog-title"><a href="blogdetails.html">How to Improve Your Sales Volume</a></h3>
+                                </div>
+                                <div class="blog-content">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                                    <a href="#" class="blog-read-more">Continue Reading</a>
                                 </div>
                             </div>
                         </div>
@@ -475,125 +597,6 @@
                 </div>
             </div>
             <!-- Blog Area End -->
-            <!-- Testimonial Start -->
-            <div class="testimonial-area text-center pt-70 pb-50">
-                <div class="container">
-                    <div class="row mb-45">
-                        <div class="col-xl-12">
-                            <h3 class="testimonial-section-title">Client’s testimonial</h3>
-                            <p class="testimonial-section-sub-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
-                        </div>
-                    </div>
-                    <div class="custom-row">
-                        <div class="testimonial-active d-flex">
-                            <div class="col-xl-6">
-                                <div class="testimonial-wrapper">
-                                    <div class="clients-img">
-                                        <img src="./img/testimonial/test1.png" alt="">
-                                    </div>
-                                    <div class="test-content">
-                                        <div class="clients-review">
-                                            <p>Li lingues differe solmen in li grammatica, li pronuncia tion e li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua fusa continuar.</p>
-                                        </div>
-                                        <div class="clients-info">
-                                            <h4 class="clients-name">Nathaneal Down</h4>
-                                            <span class="clients-position">HD Manager</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-6">
-                                <div class="testimonial-wrapper text-center">
-                                    <div class="clients-img">
-                                        <img src="./img/testimonial/test2.png" alt="">
-                                    </div>
-                                    <div class="test-content">
-                                        <div class="clients-review">
-                                            <p>Li lingues differe solmen in li grammatica, li pronuncia tion e li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua fusa continuar.</p>
-                                        </div>
-                                        <div class="clients-info">
-                                            <h4 class="clients-name">Bodrum Salvador</h4>
-                                            <span class="clients-position">CEO of Company</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-6">
-                                <div class="testimonial-wrapper">
-                                    <div class="clients-img">
-                                        <img src="./img/testimonial/test1.png" alt="">
-                                    </div>
-                                    <div class="test-content">
-                                        <div class="clients-review">
-                                            <p>Li lingues differe solmen in li grammatica, li pronuncia tion e li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua fusa continuar.</p>
-                                        </div>
-                                        <div class="clients-info">
-                                            <h4 class="clients-name">Nathaneal Down</h4>
-                                            <span class="clients-position">HD Manager</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-6">
-                                <div class="testimonial-wrapper text-center">
-                                    <div class="clients-img">
-                                        <img src="./img/testimonial/test2.png" alt="">
-                                    </div>
-                                    <div class="test-content">
-                                        <div class="clients-review">
-                                            <p>Li lingues differe solmen in li grammatica, li pronuncia tion e li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua fusa continuar.</p>
-                                        </div>
-                                        <div class="clients-info">
-                                            <h4 class="clients-name">Bodrum Salvador</h4>
-                                            <span class="clients-position">CEO of Company</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-6">
-                                <div class="testimonial-wrapper">
-                                    <div class="clients-img">
-                                        <img src="./img/testimonial/test1.png" alt="">
-                                    </div>
-                                    <div class="test-content">
-                                        <div class="clients-review">
-                                            <p>Li lingues differe solmen in li grammatica, li pronuncia tion e li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua fusa continuar.</p>
-                                        </div>
-                                        <div class="clients-info">
-                                            <h4 class="clients-name">Nathaneal Down</h4>
-                                            <span class="clients-position">HD Manager</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-6">
-                                <div class="testimonial-wrapper text-center">
-                                    <div class="clients-img">
-                                        <img src="./img/testimonial/test2.png" alt="">
-                                    </div>
-                                    <div class="test-content">
-                                        <div class="clients-review">
-                                            <p>Li lingues differe solmen in li grammatica, li pronuncia tion e li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua fusa continuar.</p>
-                                        </div>
-                                        <div class="clients-info">
-                                            <h4 class="clients-name">Bodrum Salvador</h4>
-                                            <span class="clients-position">CEO of Company</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row pt-130">
-                        <div class="col-xl-12">
-                            <div class="cap-img">
-                                <img src="./img/img/cap.png" alt="Cap">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Testimonial End -->
             <!-- Footer-area Start -->
             <footer>
                 <div class="footer-area gray-bg pt-30 pb-50">
@@ -694,7 +697,6 @@
                 </div>
             </footer>
             <!-- Footer-area End -->
-        </div>
     </section>
     <!-- All JS Here-->
     <script src="js/vendor/modernizr-3.11.2.min.js"></script>
@@ -710,5 +712,4 @@
     <script src="js/main.js"></script>
 
 </body>
-
 </html>
