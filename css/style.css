@@ -754,7 +754,37 @@ input[type="search"]:focus-visible {
     font-size: 15px;
     font-weight: 500;
 }
-
+/* Portfolio Details */
+.project-title {
+    font-size: 28px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 20px;
+}
+.project-description > p {
+    margin-bottom: 20px;
+}
+.project-info {
+    padding: 40px 50px;
+}
+.project-info ul li{
+    margin-bottom: 25px;
+}
+.project-info ul li:last-child{
+    margin-bottom: 0;
+}
+.project-info ul li b {
+    text-transform: uppercase;
+    font-size: 17px;
+    display: block;
+    color: #777;
+}
+.project-info ul li span{
+    font-size: 17px;
+    color: #777;
+    margin-top: 10px;
+    display: inline-block;
+}
 /* Counter  */
 .counter-area{
     background-size: cover !important;
@@ -858,6 +888,51 @@ span.more-btn {
 }
 .latest-blog-area .blog-active .slick-slide, .testimonial-active .slick-slide {
     margin: 0px 15px;
+}
+h3.blog-title {
+    font-size: 22px;
+    color: #333;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.blog-item .blog-content span {
+    font-size: 14px;
+    color: rgb(51, 51, 51);
+    font-family: Poppins;
+    text-transform: uppercase;
+    position: relative;
+    display: block;
+    margin-bottom: 3px;
+}
+.blog-item .blog-content span::after{
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 2px;
+    top: 10px;
+    left: 55px;
+    background-color: #fbba42;
+}
+.blog-pagination .page-link {
+    height: 40px;
+    width: 40px;
+    line-height: 30px;
+    font-size: 20px !important;
+    color: #333;
+}
+.page-item.active .page-link {
+    color: #333;
+    background-color: #fbba42;
+    border-color: #fbba42;
+}
+.page-link:hover {
+    color: #333;
+    background-color: #fbba42;
+    border-color: #fbba42;
+}
+.page-link:focus {
+    box-shadow: none;
 }
 ul.slick-dots {
     position: absolute;
@@ -1209,4 +1284,220 @@ a.team-apply-btn {
 .team-img:hover .team-social{
     top: 52%;
     opacity: 1;
+}
+
+.about-team-area .section-title {
+    margin-bottom: 40px;
+}
+.about-team-area .section-title h2 {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+.about-team-info {
+    background: #fff;
+    padding: 25px 50px;
+}
+
+.about-team-info .team-content h5 {
+    margin-top: 25px;
+}
+.about-team-social i {
+    color: #3f5666;
+    font-size: 14px;
+    width: 30px;
+    height: 30px;
+    background: #f7f7f7;
+    line-height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    margin: 0 3px;
+}
+
+.about-team-social i:hover{
+background-color: #f8ca4d;
+}
+/* Page title */
+.page-title h1 {
+    font-size: 72px;
+    font-weight: 600;
+    color: #414149;
+}
+li.breadcrumb-item > a {
+    color: #2f3440;
+    font-size: 17px;
+    font-family: "Work sans";
+}
+.breadcrumb-item.active {
+    color: #537797;
+}
+
+/* Services Page */
+
+.services-box {
+    padding: 30px 30px 20px;
+    border: 2px solid transparent;
+}
+.services-box:hover{
+    border: 2px solid #f2f2f2;
+}
+.services-box i {
+    font-size: 28px;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    background: #f2f2f2;
+    text-align: center;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    color: #333;
+    transition: .3s;
+}
+.services-box h3 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #333;
+}
+.services-box p {
+    
+}
+.services-box:hover i{
+    background: #fbba42;
+}
+
+/* contact page */
+.contact-form.gray-bg {
+    padding: 55px 35px;
+}
+h3.contact-form-title {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 35px;
+    color: #333;
+}
+.contact-form form input {
+    border: 0;
+    background: none;
+    border-bottom: 1px solid #cccccf;
+    margin-bottom: 30px;
+    padding: 15px 0;
+    width: 100%;
+}
+.contact-form form textarea {
+    border: 0;
+    background: none;
+    border-bottom: 1px solid #cccccf;
+    margin-bottom: 30px;
+    height: 70px;
+    width: 100%;
+}
+.contact-form form textarea:focus{
+    outline: none;
+}
+.btn:focus{
+    box-shadow: none;
+}
+.contact-form .btn {
+    width: 160px;
+    padding: 16px 0;
+    background: #fbba42;
+    text-transform: uppercase;
+    color: #414149;
+    font-size: 18px;
+}
+.contact-info {
+    padding: 40px 45px;
+    border: 1px solid #f2f2f2;
+}
+.contact-info > span {
+    font-size: 17px;
+    color: #646464;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+h3.contact-info-title {
+    font-size: 40px;
+    color: #414149;
+    margin-bottom: 45px;
+    font-weight: 600;
+}
+.contact-meta h4, .contact-meta-address h4 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #333333;
+}
+.contact-meta p{
+    margin-bottom: 0px;
+}
+.contact-meta {
+    margin-bottom: 35px;
+}
+/* Career Area */
+.career-title.text-center {
+    margin-bottom: 55px;
+}
+.career-title h2 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #414149;
+}
+.career-item-icon-box {
+    padding: 0 20px;
+    margin-bottom: 30px;
+}
+.career-item-icon-box i {
+    font-size: 36px;
+    width: 110px;
+    height: 110px;
+    background: #fbba42;
+    line-height: 110px;
+    border-radius: 50%;
+    color: #414149;
+    margin-bottom: 20px;
+}
+.career-item-icon-box h3 {
+    font-size: 28px;
+    font-weight: 600;
+}
+.career-area h3{
+    font-weight: 600;
+    font-size: 28px;
+}
+.notice {
+    padding: 35px 35px 50px;
+}
+.notice h3 {
+    padding: 0 0 20px;
+    border-bottom: 1px solid #fbba42;
+    margin-bottom: 22px;
+}
+.notice ul li a {
+    color: #777;
+    font-size: 17px;
+    line-height: 48px;
+}
+.notice ul li a:hover{
+    color: #1696e7;
+}
+.job-desc {
+    margin-bottom: 50px;
+}
+.job-desc h3 {
+    margin-bottom: 15px;
+}
+
+.job-desc ol li {
+    position: relative;
+    font-size: 17px;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.job-desc ol li::before {
+    border: 2px solid #5a596a;
+    border-radius: 50%;
+    content: "";
+    height: 10px;
+    left: -30px;
+    position: absolute;
+    top: 12px;
+    width: 10px;
 }
